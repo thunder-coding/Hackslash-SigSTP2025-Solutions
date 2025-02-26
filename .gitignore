@@ -1,0 +1,6 @@
+# CMake build output
+build/
+# clangd cache (for C++ ide integration)
+.cache/
+# Also used by clangd for completions
+compile_commands.json
