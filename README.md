@@ -9,6 +9,7 @@ GitHub: https://github.com/thunder-coding
 ```
 .
 ├── build            # The build output will go here
+├── screenshots      # Screenshots for all the tasks output
 ├── CMakeLists.txt   # CMake build recipe for the project
 ├── README.md        # :-)  You are here right now  (-:
 ├── Task-1           # Solution for Task-1
