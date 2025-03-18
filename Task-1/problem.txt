@@ -1,0 +1,20 @@
+Task 1 - Design an ATM Machine
+
+Problem Description:
+An ATM machine stores banknotes of five denominations: $20, $50, $100, $200, and $500.
+
+Initially, the ATM is empty. Users can deposit and withdraw money following these constraints:
+ Withdrawals prioritize using the highest denomination available.
+ If a withdrawal is not possible with the available banknotes,the requestis rejected.
+Example:
+ If you request $300 and the ATM has 2x $50, 1x $100, and 1x $200,it will dispense
+$100 and $200.
+ If you request $600 and the ATM contains 3x $200 and 1x $500, the request is
+rejected because the ATM will attemptto use the $500 first and fail to complete the
+withdrawal.
+
+Implementation Requirements:
+ ATM(): Initializes the ATM object.
+ void deposit(int[] banknotesCount): Deposits banknotes in the order [$20, $50, $100, $200, $500].
+ int[] withdraw(int amount): Withdraws the requested amount and returns the number of banknotes used. If the withdrawal is not possible, return [-1].
+ Use OOPS concepts wisely

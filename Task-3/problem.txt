@@ -1,0 +1,14 @@
+Task 3 - The Trial ofthe Cheater’s Path
+
+Problem Description:
+You are accused of cheating in a HackSlash induction task. To prove your innocence, you must navigate the Path of Truth, a maze-like challenge requiring you to follow left/right instructions to move from AAA to ZZZ.
+Part 1:
+ Start at node AAA and follow the given left/right instructions repeatedly until you reach ZZZ.
+ The maze consists of nodes connected by left and right paths.
+ Calculate the number of steps required to reach ZZZ.
+
+Part 2:
+ Instead of starting at a single node, begin at all nodes ending with 'A'.
+ Follow all possible paths simultaneously.
+ The goal is to make all paths reach nodes ending in 'Z' at the same time.
+ Compute the number of steps required for all paths to complete simultaneously.

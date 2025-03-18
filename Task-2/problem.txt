@@ -1,0 +1,16 @@
+Task 2 - Task Manager with Priority Scheduling
+
+Problem Description:
+Design and implement a Task Manager that manages tasks based on priority. Each task has a unique ID, a description, and a priority level. Tasks with the highest priority (lowest priority number) are processed first.
+
+Objectives:
+ Efficient Task Scheduling: Ensure tasks execute based on priority.
+ Dynamic Task Management: Supporttask addition,removal by Id, display, and retrieval ofthe highest priority task.
+ Optimal Performance: Utilize an appropriate data structure to minimize
+computational overhead.
+
+Implementation Requirements:
+ Add a Task: Assigns an ID, description, and priority.
+ Remove a Task: Removes a specific tas by the given Id
+ Display All Tasks: Lists all tasks sorted by priority.
+ Retrieve the Highest Priority Task: Returns the task with the lowest priority number.
